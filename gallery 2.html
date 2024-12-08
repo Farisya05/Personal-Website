@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitties</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #92a8d1, #f7cac9);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #444;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Back Button Styling */
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #92A8D1;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #F7CAC9;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 20%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .gallery video {
+            width: 20%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery video:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Back Button -->
+    <a href="HOMEPAGE.html" class="back-button">← Back</a>
+
+    <header>Cutesy Cat</header>
+    <div class="gallery">
+        <img src="image/kitties1.jpg" alt="Photo 1">
+        <img src="image/kitties2.jpg" alt="Photo 2">
+        <img src="image/kitties3.jpg" alt="Photo 3">
+        <img src="image/kitties4.jpg" alt="Photo 4">
+        <img src="image/kitties5.jpg" alt="Photo 5">
+        <video autoplay muted loop>
+            <source src="video/kitties1.mp4" type="video/mp4">
+        </video>
+        <img src="image/kitties6.jpg" alt="Photo 6">
+        <img src="image/kitties8.jpg" alt="Photo 7">
+        <video autoplay muted loop>
+            <source src="video/kitties2.mp4" type="video/mp4">
+        </video>
+        <img src="image/kitties8.jpg" alt="Photo 8">
+        <img src="image/kitties9.jpg" alt="Photo 9">
+        <img src="image/kitties10.jpg" alt="Photo 10">
+        <img src="image/kitties11.jpg" alt="Photo 11">
+        <img src="image/kitties12.jpg" alt="Photo 12">
+        <video autoplay muted loop>
+            <source src="video/kitties3.mp4" type="video/mp4">
+        </video>
+        <img src="image/kitties13.jpg" alt="Photo 13">
+        <img src="image/kitties14.jpg" alt="Photo 14">
+        <img src="image/kitties15.jpg" alt="Photo 15">
+        <img src="image/kitties16.jpg" alt="Photo 16">
+        <video autoplay muted loop>
+            <source src="video/kitties4.mp4" type="video/mp4">
+        </video>
+        <img src="image/kitties17.jpg" alt="Photo 17">
+        <img src="image/kitties19.jpg" alt="Photo 18">
+        <img src="image/kitties22.jpg" alt="Photo 19">
+        <img src="image/kitties24.jpg" alt="Photo 20">
+    </div>
+
+</body>
+</html>

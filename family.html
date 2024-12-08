@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #92a8d1, #f7cac9);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #444;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Back Button Styling */
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #92A8D1;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #F7CAC9;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 15px;
+        }
+
+        .image-container {
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 75%;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .caption {
+            margin-top: 8px;
+            font-size: 1em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Back Button -->
+    <a href="family & friends.html" class="back-button">← Back</a>
+
+    <header>My Family</header>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="image/ayah.jpg" alt="Photo 1">
+            <div class="caption">This is my lovely father. His name is Nazari Bin Abdul Hazis. He works under warehouse department at Abex Medical System Sdn Bhd, Shah Alam.</div>
+        </div>
+        <div class="image-container">
+            <img src="image/ibu.jpg" alt="Photo 2">
+            <div class="caption">This is my beloved mother. Her name is Wan Nor Liza Binti Kamarudiin. She works in sales team at Scientex Berhad, Shah Alam.</div>
+        </div>
+        <div class="image-container">
+            <img src="image/kakak.jpg" alt="Photo 3">
+            <div class="caption">This is my older sister. Her name is Nurfazira Binti Nazari. She just finish her degree as an Economy Business student at UiTM Puncak Alam.</div>
+        </div>
+        <div class="image-container">
+            <img src="image/esya.jpg" alt="Photo 4">
+            <div class="caption">This is me. My name is Nurfarisya Binti Nazari. I currently studying information management at UiTM Rembau, Negeri sembilan.</div>
+        </div>
+        <div class="image-container">
+            <img src="image/family.jpg" alt="Photo 5">
+            <div class="caption">This is my happy family. Even though I am having a hard time, I know my family will always there for me. I will not trade them with anything.</div>
+        </div>
+        <div class="image-container">
+            <img src="image/baby.jpg" alt="Photo 6">
+            <div class="caption">This is my younger sister. Her name is Nur Fasya Binti Nazari. She currently continue her study as pre-diploma student at UiTM Pematang Pauh.</div>
+        </div>
+        <div class="image-container">
+            <img src="image/farriez.jpg" alt="Photo 7">
+            <div class="caption">This is my first younger brother. His name is Muhammad Farriez Bin Nazari. He has a goal of attending a boarding school after finishing primary school. He also used to play hockey for his school and managed to get third place in the match.</div>
+        </div>
+        <div class="image-container">
+            <img src="image/fazrie.jpg" alt="Photo 8">
+            <div class="caption">This is my second younger brother. His name is Muhammad Fazrie Bin Nazari. He used to play football for Malaysia at Vietnam and Thailand at the age of 9 years old under the Akademi Tunas Petaling Perdana for ACF Football Tournament.</div>
+        </div>
+    </div>
+</body>
+</html>

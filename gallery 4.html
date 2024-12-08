@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebong</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #92a8d1, #f7cac9);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #444;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Back Button Styling */
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #92A8D1;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #F7CAC9;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 15px;
+        }
+
+        .gallery-item {
+            text-align: center;
+            width: 22%;
+        }
+
+        .gallery img, .gallery video {
+            width: 100%; 
+            height: auto; 
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery img:hover, .gallery video:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .gallery-caption {
+            margin-top: 10px;
+            font-size: 1em;
+            font-weight: bold;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Back Button -->
+    <a href="HOMEPAGE.html" class="back-button">← Back</a>
+
+    <header>My Melodic Muse</header>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="image/scoups.jpeg" alt="S.Coups">
+            <div class="gallery-caption">S.Coups</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/jeonghan.jpeg" alt="Jeonghan">
+            <div class="gallery-caption">Jeonghan</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/joshua.jpeg" alt="Joshua">
+            <div class="gallery-caption">Joshua</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/jun.jpeg" alt="Jun">
+            <div class="gallery-caption">Jun</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/hoshi.jpeg" alt="Hoshi">
+            <div class="gallery-caption">Hoshi</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/wonwoo.jpeg" alt="Wonwoo">
+            <div class="gallery-caption">Wonwoo</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/woozi.jpeg" alt="Woozi">
+            <div class="gallery-caption">Woozi</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/the8.jpeg" alt="The8">
+            <div class="gallery-caption">The8</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/mingyu.jpg" alt="Mingyu">
+            <div class="gallery-caption">Mingyu</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/dk.jpeg" alt="DK">
+            <div class="gallery-caption">DK</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/seungkwan.jpeg" alt="Seungkwan">
+            <div class="gallery-caption">Seungkwan</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/vernon.jpeg" alt="Vernon">
+            <div class="gallery-caption">Vernon</div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/dino.jpeg" alt="Dino">
+            <div class="gallery-caption">Dino</div>
+        </div>
+        <div class="gallery-item">
+            <video controls>
+                <source src="video/SVT.mp4" type="video/mp4">
+
+            </video>
+        </div>
+    </div>
+</body>
+</html>
